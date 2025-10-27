@@ -6,3 +6,4 @@ scikit-learn
 matplotlib
 notebook
 langchain
+python-dotenv
