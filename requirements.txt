@@ -9,6 +9,9 @@ notebook
 langchain
 langchain_community
 langchain-google-genai
+sentence-transformers
 transformers
 huggingface_hub
+pymupdf
+faiss-cpu
 python-dotenv
