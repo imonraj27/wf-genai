@@ -1,4 +1,5 @@
 tensorflow
+torch
 pandas
 numpy
 streamlit
@@ -6,4 +7,8 @@ scikit-learn
 matplotlib
 notebook
 langchain
+langchain_community
+langchain-google-genai
+transformers
+huggingface_hub
 python-dotenv
