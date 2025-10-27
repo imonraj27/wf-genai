@@ -1,0 +1,8 @@
+tensorflow
+pandas
+numpy
+streamlit
+scikit-learn
+matplotlib
+notebook
+langchain
