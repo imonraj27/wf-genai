@@ -9,6 +9,7 @@ notebook
 langchain
 langchain_community
 langchain-google-genai
+langchain-ollama
 sentence-transformers
 transformers
 huggingface_hub
