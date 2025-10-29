@@ -66,16 +66,25 @@ if prompt_text := st.chat_input("Type your question for Aakash..."):
         st.session_state.messages.append(
             {"role": "user", "content": prompt_text})
 
-        # Generate Aakash's response
+        # Stream Aakash's response
         with st.chat_message("assistant"):
-            with st.spinner("Aakash is typing..."):
-                try:
-                    response = chain.invoke({
-                        "QUESTION": prompt_text,
-                        "JUNIOR_NAME": junior_name
-                    })
-                    st.markdown(f"**Aakash:** {response}")
-                    st.session_state.messages.append(
-                        {"role": "assistant", "content": response})
-                except Exception as e:
-                    st.error(f"⚠️ Error: {e}")
+            try:
+                response_placeholder = st.empty()
+                full_response = ""
+
+                # stream() yields tokens/chunks incrementally
+                for chunk in chain.stream({
+                    "QUESTION": prompt_text,
+                    "JUNIOR_NAME": junior_name
+                }):
+                    full_response += chunk
+                    response_placeholder.markdown(
+                        f"**Aakash:** {full_response}▌")
+
+                response_placeholder.markdown(
+                    f"**Aakash:** {full_response}")
+
+                st.session_state.messages.append(
+                    {"role": "assistant", "content": full_response})
+            except Exception as e:
+                st.error(f"⚠️ Error: {e}")
