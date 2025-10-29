@@ -1,8 +1,12 @@
 import streamlit as st
 from langchain_ollama.chat_models import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.messages import HumanMessage, AIMessage
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ----------------- CONFIG -----------------
 st.set_page_config(page_title="Chat with Aakash", page_icon="💬")
@@ -11,7 +15,9 @@ st.title("💬 Chat with Aakash — Your Senior Engineer")
 st.caption("Ask technical questions and get helpful, professional answers.")
 
 # ----------------- MODEL SETUP -----------------
-llm = ChatOllama(model="gemma2:2b")
+# llm = ChatOllama(model="gemma2:2b")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.2)
+
 
 prompt = ChatPromptTemplate([
     (
@@ -32,6 +38,7 @@ prompt = ChatPromptTemplate([
         Your goal: Help juniors understand the solution efficiently and confidently.
         """
     ),
+    MessagesPlaceholder(variable_name="conversation"),
     ("human", "Hi Aakash, {QUESTION} - From {JUNIOR_NAME}")
 ])
 
@@ -41,6 +48,9 @@ chain = prompt | llm | parser
 # ----------------- SESSION STATE -----------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
+
+if "llm_messages" not in st.session_state:
+    st.session_state.llm_messages = []
 
 junior_name = st.text_input("👤 Enter your name", key="junior_name")
 
@@ -66,6 +76,9 @@ if prompt_text := st.chat_input("Type your question for Aakash..."):
         st.session_state.messages.append(
             {"role": "user", "content": prompt_text})
 
+        st.session_state.llm_messages.append(HumanMessage(
+            content=prompt_text + " - From: " + junior_name))
+
         # Stream Aakash's response
         with st.chat_message("assistant"):
             try:
@@ -74,6 +87,7 @@ if prompt_text := st.chat_input("Type your question for Aakash..."):
 
                 # stream() yields tokens/chunks incrementally
                 for chunk in chain.stream({
+                    "conversation": st.session_state.llm_messages,
                     "QUESTION": prompt_text,
                     "JUNIOR_NAME": junior_name
                 }):
@@ -86,5 +100,9 @@ if prompt_text := st.chat_input("Type your question for Aakash..."):
 
                 st.session_state.messages.append(
                     {"role": "assistant", "content": full_response})
+
+                st.session_state.llm_messages.append(
+                    AIMessage(content=full_response))
+
             except Exception as e:
                 st.error(f"⚠️ Error: {e}")
