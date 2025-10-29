@@ -16,3 +16,4 @@ huggingface_hub
 pymupdf
 faiss-cpu
 python-dotenv
+langgraph
