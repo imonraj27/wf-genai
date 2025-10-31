@@ -10,6 +10,7 @@ langchain
 langchain_community
 langchain-google-genai
 langchain-ollama
+langchain-groq
 sentence-transformers
 transformers
 huggingface_hub
@@ -17,3 +18,7 @@ pymupdf
 faiss-cpu
 python-dotenv
 langgraph
+duckduckgo-search
+wikipedia
+langchainhub
+ddgs
