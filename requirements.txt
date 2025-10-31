@@ -10,7 +10,9 @@ langchain
 langchain_community
 langchain-google-genai
 langchain-ollama
+langchain-huggingface
 langchain-groq
+groq
 sentence-transformers
 transformers
 huggingface_hub
@@ -22,3 +24,4 @@ duckduckgo-search
 wikipedia
 langchainhub
 ddgs
+pytesseract
