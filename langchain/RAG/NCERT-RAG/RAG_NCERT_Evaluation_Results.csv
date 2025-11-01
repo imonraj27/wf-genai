@@ -1,13 +1,79 @@
 Question,Predicted,Correct,Result
+Which organelle is the primary site of ATP synthesis in eukaryotic cells?,B,B,CORRECT
+Which macromolecule is primarily responsible for catalyzing biochemical reactions?,C,C,CORRECT
+The basic structural unit of a nucleic acid is called:,B,B,CORRECT
+Which bond stabilizes the α-helix and β-sheet structures in proteins?,D,D,CORRECT
+Which organelle is involved in synthesis of lipids and detoxification in animal cells?,C,C,CORRECT
+Which of the following is NOT a component of a typical eukaryotic cell membrane?,C,C,CORRECT
+Mendel's law of segregation refers to the separation of:,A,A,CORRECT
+Which RNA molecule carries amino acids to the ribosome during translation?,C,C,CORRECT
+DNA replication is said to be semiconservative because:,B,B,CORRECT
+A frameshift mutation is most likely caused by:,B,B,CORRECT
+Which enzyme synthesizes RNA primers during DNA replication?,T,B,FALSE
+The phenotype is best defined as:,B,B,CORRECT
+Which plant hormone is primarily responsible for phototropism and cell elongation?,T,C,FALSE
+Transpiration in plants primarily occurs through:,A,A,CORRECT
+The opening and closing of stomata are mainly controlled by:,B,B,CORRECT
+Which process converts atmospheric nitrogen into a form usable by plants?,T,C,FALSE
+"In C4 plants, the first stable product of carbon fixation is:",B,B,CORRECT
+Which pigment is primarily responsible for capturing light energy in photosynthesis?,A,A,CORRECT
+Which chamber of the human heart receives oxygenated blood from the lungs?,C,C,CORRECT
+The functional unit of the kidney is called:,B,B,CORRECT
+Which blood cell type is primarily responsible for oxygen transport?,C,C,CORRECT
+Which enzyme in the stomach initiates protein digestion?,T,B,FALSE
+The exchange of gases in the alveoli occurs by the process of:,C,C,CORRECT
+Insulin is secreted by which cells in the pancreatic islets?,B,B,CORRECT
+"In humans, fertilization normally occurs in the:",C,C,CORRECT
+The structure that nourishes the human embryo and facilitates exchange of substances is:,B,B,CORRECT
+Which of the following is a secondary sexual characteristic in human males?,C,C,CORRECT
+Meiosis results in the formation of:,B,B,CORRECT
+Crossing over occurs during which stage of meiosis?,A,A,CORRECT
+Which hormone triggers ovulation in the human female menstrual cycle?,B,B,CORRECT
+Which term describes the total of all organisms and their physical environment interacting as a system?,C,C,CORRECT
+Which organism is a primary producer in an ecosystem?,C,C,CORRECT
+Bioaccumulation refers to:,T,B,FALSE
+Nitrogenous wastes excreted as urea are characteristic of which group?,C,C,CORRECT
+Which of the following is an example of mutualism?,B,B,CORRECT
+Carrying capacity of an environment refers to:,B,B,CORRECT
+Which kingdom includes organisms that are prokaryotic and lack a true nucleus?,C,C,CORRECT
+Which feature distinguishes angiosperms from gymnosperms?,C,C,CORRECT
+Binomial nomenclature gives each species a name consisting of:,B,B,CORRECT
+Which group of microorganisms can fix atmospheric nitrogen in specialized cells called heterocysts?,B,B,CORRECT
+Which of the following is NOT a characteristic of viruses?,C,C,CORRECT
+Which level of taxonomy is higher than family but lower than class?,A,A,CORRECT
+Secondary growth in plants results primarily in an increase in:,B,B,CORRECT
+Xylem vessels are primarily responsible for transporting:,B,B,CORRECT
+Which tissue is responsible for the formation of new cells in plants (growth)?,C,C,CORRECT
+The Casparian strip is found in which plant structure?,T,B,FALSE
+Plasmolysis in plant cells occurs when cells are placed in a:,T,C,FALSE
+Which photoreceptor pigment is involved in seed germination and flowering responses?,T,B,FALSE
+Natural selection acts primarily on:,B,B,CORRECT
+The similar structures in unrelated organisms due to convergent evolution are called:,B,B,CORRECT
+Which scientist proposed the theory of natural selection as a mechanism for evolution?,C,C,CORRECT
+Hardy-Weinberg equilibrium is used to study:,A,A,CORRECT
+Genetic drift has the largest effect in populations that are:,T,B,FALSE
+Which structure represents a vestigial organ in humans?,T,A,FALSE
+Which microorganism is used in the production of curd (yogurt)?,C,C,CORRECT
+Which immune cells are primarily responsible for antibody production?,B,B,CORRECT
+Antibiotics are effective against:,B,B,CORRECT
+The process by which pathogens are recognized and engulfed by phagocytic cells is called:,B,B,CORRECT
+Vaccination induces immunity primarily by stimulating:,B,B,CORRECT
+Which bacterial structure provides resistance to harsh conditions and can remain dormant?,T,C,FALSE
+Which vitamin deficiency causes scurvy?,T,B,FALSE
+Which nutrient yields the highest energy per gram when metabolized?,T,C,FALSE
+The site of maximum nutrient absorption in human digestive tract is:,T,C,FALSE
+Bile salts are produced by the:,B,B,CORRECT
+Which enzyme breaks down starch into maltose in the human mouth?,T,C,FALSE
+A deficiency of dietary iodine can lead to:,B,B,CORRECT
 The cell organelle responsible for cellular respiration is:,C,C,CORRECT
-The functional unit of heredity is called:,T,B,FALSE
+The functional unit of heredity is called:,B,B,CORRECT
 Which of the following is not a function of the smooth endoplasmic reticulum (SER)?,C,C,CORRECT
 Which phase of mitosis is characterized by the alignment of chromosomes at the equatorial plate?,B,B,CORRECT
 Which of the following tissues helps in the transportation of food in plants?,B,B,CORRECT
-"Which among the following is an example of a non-motile, colonial alga?",T,D,FALSE
+"Which among the following is an example of a non-motile, colonial alga?",B,D,FALSE
 The enzyme responsible for the conversion of starch into maltose is:,T,C,FALSE
-The process of formation of pollen grains from microspore mother cells is known as:,T,B,FALSE
-Which of the following organisms shows a diplontic life cycle?,T,C,FALSE
+The process of formation of pollen grains from microspore mother cells is known as:,B,B,CORRECT
+Which of the following organisms shows a diplontic life cycle?,C,C,CORRECT
 The longest phase of the cell cycle is:,T,B,FALSE
 The apical meristem is responsible for:,C,C,CORRECT
 The exoskeleton of arthropods is made up of:,B,B,CORRECT
