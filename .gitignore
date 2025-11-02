@@ -3,3 +3,4 @@ wf-practive-env
 .env
 *.faiss
 *.pkl
+__pycache__

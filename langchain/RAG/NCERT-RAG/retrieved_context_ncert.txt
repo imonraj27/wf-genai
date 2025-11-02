@@ -17,3 +17,13 @@
 . Cells vary in their shape, size and activities/functions. Based on the presence or absence of a membrane bound nucleus and other organelles, cells and hence organisms can be named as eukaryotic or prokaryotic. A typical eukaryotic cell consists of a cell membrane, nucleus and cytoplasm. Plant cells have a cell wall outside the cell membrane. The plasma membrane is selectively permeable and facilitates transport of several molecules
 ----------------------------------------
 . We must stress here that our understanding of the plant kingdom has changed over time. Fungi, and members of the Monera and Protista having cell walls have now been excluded from Plantae though earlier classifications placed them in the same kingdom. So, the cyanobacteria that are also referred to as blue green algae are not ‘algae’ any more
+----------------------------------------
+. They are generally smaller and multiply more rapidly than the eukaryotic cells ( shapes of bacteria are bacillus (rod like), coccus (spherical), vibrio (comma shaped) and spirillum (spiral). The organisation of the prokaryotic cell is fundamentally similar even though prokaryotes exhibit a wide variety of shapes and functions. All
+----------------------------------------
+. Viruses are obligate parasites. In addition to proteins, viruses also contain genetic material, that could be either RNA or DNA. No virus contains both RNA and DNA. A virus is a nucleoprotein and the genetic material is infectious. In general, viruses that infect plants have single stranded RNA and viruses that infect animals have either single or double stranded RNA or double stranded DNA
+----------------------------------------
+. What will be the ploidy of the cells of the nucellus, MMC, the functional megaspore and female gametophyte?
+----------------------------------------
+. Hence, cell is the fundamental structural and functional unit of all living organisms. Antonie Von Leeuwenhoek first saw and described a live cell. Robert Brown later discovered the nucleus. The invention of the microscope and its improvement leading to the electron microscope revealed all the structural details of the cell. 8
+----------------------------------------
+. Describe briefly the four major groups of Protozoa. 7. Plants are autotrophic. Can you think of some plants that are partially heterotrophic? 8. What do the terms phycobiont and mycobiont signify? 9. Give a comparative account of the classes of Kingdom Fungi under the following: mode of nutrition (ii) mode of reproduction 10. What are the characteristic features of Euglenoids? 11
